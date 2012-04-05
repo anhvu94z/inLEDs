@@ -1,0 +1,32 @@
+/*---------------------------------------------------------------
+	Site Elements
+---------------------------------------------------------------*/
+/* BUTTON */
+.button-wrapper {
+	
+}
+.button-container {
+	margin:0.125em;
+}
+/*-------------------------------------------
+	Media Queries
+-------------------------------------------*/
+/*-------------Portrait phone--------------*/
+@media screen and (min-width: 520px) {
+	
+	.non-mobile-portrait {
+		display:inline-block;
+	}
+}/*/mediaquery*/
+/*-----------------Tablet------------------*/
+@media screen and (min-width: 768px) {
+	
+}/*/mediaquery*/
+/*-------------------PC--------------------*/
+@media screen and (min-width: 1024px) {
+	
+}/*/mediaquery*/
+/*---------------Widescreen----------------*/
+@media screen and (min-width: 1366px) {
+	
+}/*/mediaquery*/

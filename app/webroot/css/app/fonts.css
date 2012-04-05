@@ -1,0 +1,24 @@
+/*-------------------------------------------
+	Font classes
+-------------------------------------------*/
+.amethysta {
+	font-family: 'Amethysta', serif;
+	font-weight: 400;
+}
+.open-sans {
+	font-family: 'Open Sans', sans-serif;
+}
+em {
+	font-family: 'Open Sans', sans-serif;
+	font-weight:300;
+	font-style:italic;
+}
+/*-------------------------------------------
+	Site elements
+-------------------------------------------*/
+/* BUTTON */
+.button-container {
+	font-family: 'Open Sans', sans-serif;
+	font-weight:700;
+	font-size:1.25em;
+}

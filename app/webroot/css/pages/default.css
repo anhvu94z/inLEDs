@@ -1,0 +1,145 @@
+/*---------------------------------------------------------------
+	Logo
+---------------------------------------------------------------*/
+#logo-wrapper {
+	width:100%;
+	text-align:center;
+}
+#logo-image-container {
+	-webkit-transition: all 2s;
+    -moz-transition: all 2s;
+    -o-transition: all 2s;
+    -ms-transition: all 2s;
+}
+#logo-image-container:hover {
+	-webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+}
+#logo-container {
+	margin:1em 0 1em 0.5em;
+}
+#logo-image-container {
+	width:3em; /* 48px / 16px */
+	height:3em;	
+}
+#logo-outer {
+	width:100%;
+	height:100%;
+}
+#logo-inner {
+	width:2.5em; /* 50px / 60px */
+	height:2.5em;
+	margin:0.25em; /* 6px / 60px */
+}
+.logo-led-wrapper {
+	height:0.375em;
+}
+.logo-led-container {
+	height:0.375em;
+}
+.logo-led {
+	width:0.375em;
+	height:0.375em;
+}
+#logo-text-container {
+	margin:0 0 0 0.5em;
+}
+#logo-inleds {
+	font-size: 2em; /* 44px / 16px */
+	text-align:left;
+	font-weight:600;
+}
+#logo-text {
+	font-size: 0.75em;
+}
+/*---------------------------------------------------------------
+	Navigation
+---------------------------------------------------------------*/
+#top-bar-separator {
+	height:3.75em;
+	width:1px;
+	margin:0.75em 1.5em 0 1.5em;
+	
+	display:none;
+}
+#nav-wrapper {
+	width:100%;
+	text-align:center;
+}
+.nav-container {
+	padding:1em 1em 1em 1em;
+	color:#d0d0d0;
+}
+.nav-container:hover {
+	color:#d0d0d0;
+}
+/*---------------------------------------------------------------
+	Body Content
+---------------------------------------------------------------*/
+#body {
+	margin-top:0;
+}
+#body-container {
+	text-align:left;
+}
+/*---------------------------------------------------------------
+	Footer
+---------------------------------------------------------------*/
+#footer-wrapper {
+	margin-top:-.2em;
+}
+#footer-container {
+	margin:1em 5% 1em 5%;
+	width:90%;
+}
+#footer-rule {
+	width:100%;
+	height:1px;
+	background-color:#7a7a7a;
+}
+#footer-text {
+	font-size:0.8em;
+	line-height:3em;
+}
+/*-------------------------------------------
+	Media Queries
+-------------------------------------------*/
+/*-------------Portrait phone--------------*/
+@media screen and (min-width: 520px) {
+	#logo-wrapper {
+		text-align:left;
+	}
+}/*/mediaquery*/
+/*-----------------Tablet------------------*/
+@media screen and (min-width: 768px) {
+	#logo-wrapper {
+		width:auto;
+	}
+	
+	#top-bar-separator { display: inline; }
+	
+	#nav-wrapper {
+		width:auto;
+	}
+	.nav-container {
+		padding:2em 1em 2em 1em;
+		color:#9d9d9d;
+	}
+	
+	#body {
+		margin-top:0.5em;
+	}	
+}/*/mediaquery*/
+/*-------------------PC--------------------*/
+@media screen and (min-width: 1024px) {
+	#footer-container {
+		margin:1em 2% 1em 2%;
+		width:96%;
+	}
+}/*/mediaquery*/
+/*---------------Widescreen----------------*/
+@media screen and (min-width: 1366px) {
+	
+}/*/mediaquery*/

@@ -1,0 +1,219 @@
+/*-------------------------------------------
+	Banner
+-------------------------------------------*/
+#banner-wrapper, #products-view-wrapper {
+	width:100%;
+	max-width:100%;
+	height:auto;
+}
+#banner-container {
+	margin:1em 1em 1em 1em;
+}
+#page-header {
+	color:#000000;
+	font-size:2em;
+	line-height:1.2em;
+}
+#banner-container .amethysta {
+	color:#302f2f;
+	margin-top:.8em;
+	line-height:1.2em;
+}
+/*-------------------------------------------
+	Products Categories
+-------------------------------------------*/
+#products-category-select {
+	margin-top:.8em;
+}
+#products-category-select select {
+	width:100%;
+}
+.category {
+	width:6em;
+	height:6em;
+	
+	border:1px solid #101010;
+	margin:.5em;
+	cursor:pointer;
+	overflow:hidden;
+}
+.category-image-empty {
+	padding-top:.5em;
+
+	width:100%;
+	max-width:100%;
+	height:5.5em;
+	max-height:5.5em;
+	
+	color:#aaaaaa;
+	font-weight:700;
+	line-height:1.2em;
+	
+	text-align:center;
+}
+.category-image img {
+	margin-left:20%;
+	width:100%;
+	max-width:100%;
+}
+.category-name {
+	width:100%;
+	
+	font-weight:600;
+	font-size:.8em;
+	text-indent:.4em;
+	
+	height:1.8em;
+	line-height:1.6em;
+	margin-top:-1.8em;
+	
+	background-color:#101010;
+}
+.current-category {
+	border:1px solid #1b74c8 !important;
+}
+.current-category .category-name {
+	background-color:#1b74c8 !important;
+}
+/*-------------------------------------------
+	Products View
+-------------------------------------------*/
+#products-view-wrapper {
+}
+#products-view-container {
+	margin:5%;
+	width:90%;
+	max-width:90%;
+}
+#category-header {
+	font-size:2em;
+}
+#category-description {
+	max-width:30em;
+	margin:.5em 0 0 0;
+	
+	line-height:1.4em;
+}
+/*-------------------------------------------
+	Products
+-------------------------------------------*/
+#products-views {
+	width:100%;
+	height:auto;
+}
+#products-empty {
+	line-height:4em;
+}
+.product-wrapper {
+	margin-top:2em;
+	width:100%;
+}
+.product-container {
+	width:100%;
+}
+.product-image-wrapper {
+	width:10em;
+	height:10em;
+	background-image:url(../../img/app/image_corners.png);
+	margin-top:1em;
+}
+.product-image-wrapper img {
+	width:100%;
+	max-width:100%;
+}
+/*----------DATASHEET BUTTON------------*/
+.datasheet-btn {
+	margin:1em 0.5em 0 0.5em;
+}
+.datasheet-btn:active {
+	margin-top:1.25em !important;
+}
+.datasheet-btn .button-container {
+	line-height:1.6em;
+	font-size:.9em;
+	width:10em;
+}
+/*----------PRODUCT's DESCRIPTION------------*/
+.product-desc-wrapper {
+	margin-top:1em;
+	max-width:53em;
+}
+.product-desc-container {
+	width:95%;
+	margin:0 0.625em 0.625em 0.625em;
+}
+.product-name {
+	font-size:1.2em;
+	font-weight:600;
+	color:#f2ab1b;
+}
+.product-model {
+	font-size:.8em;
+	color:#7e7e7e;
+	margin-top:.25em;
+}
+.product-section-divider {
+	width:100%;
+	height:1px;
+	margin-top:.4em;
+	background-color:#f2ab1b;
+}
+.product-details table {
+	margin:.4em 2% 0 2%;
+	width:96%;
+	max-width:96%;
+	line-height:1.2em;
+	font-size:.9em;
+}
+.product-details td {
+	padding-bottom:.8em;
+	vertical-align:middle;
+}
+.product-details td.open-sans {
+	color:#7e7e7e;
+	padding-right:.3em;
+	text-align:right;
+}
+.product-details td.amethysta {
+	color:#efefef;
+	padding-left:.4em;
+}
+/*-------------------------------------------
+	Media Queries
+-------------------------------------------*/
+/*-------------Portrait phone--------------*/
+@media screen and (min-width: 520px) {
+
+}/*/mediaquery*/
+/*-----------------Tablet------------------*/
+@media screen and (min-width: 768px) {
+	#products-view-container {
+		margin:3%;
+		width:94%;
+		max-width:94%;
+	}
+}/*/mediaquery*/
+/*-------------------PC--------------------*/
+@media screen and (min-width: 1024px) {
+	#body-container {
+		max-width:64em;
+		width:100%;
+	}
+	
+	.category:hover {
+		border:1px solid #525252;
+	}
+	.category:hover .category-name {
+		background-color:#525252;
+	}
+	
+	#products-view-container {
+		margin:1em 1em 1em 1em;
+		width:100%;
+		max-width:62em;
+	}
+}/*/mediaquery*/
+/*---------------Widescreen----------------*/
+@media screen and (min-width: 1366px) {
+	
+}/*/mediaquery*/

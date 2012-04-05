@@ -1,0 +1,19 @@
+/*-------------------------------------------
+	Media Queries
+-------------------------------------------*/
+/*-------------Portrait phone--------------*/
+@media screen and (min-width: 520px) {
+
+}/*/mediaquery*/
+/*-----------------Tablet------------------*/
+@media screen and (min-width: 768px) {
+	
+}/*/mediaquery*/
+/*-------------------PC--------------------*/
+@media screen and (min-width: 1024px) {
+	
+}/*/mediaquery*/
+/*---------------Widescreen----------------*/
+@media screen and (min-width: 1366px) {
+	
+}/*/mediaquery*/
